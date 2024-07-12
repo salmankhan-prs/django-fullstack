@@ -1,15 +1,15 @@
 {% extends "layout.html" %}
 
 {% block title %}
-    Tweet
+    Django Fullstack App | Tweet App
 {% endblock %}
 
 {% block content %}
-    <h1 class="bg-orange-500 text-3xl h-2000  text-cyan-600">Home</h1>
-    <p>Welcome to the tweet </p>
-    <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni eaque sequi, blanditiis autem accusamus, architecto accusantium aspernatur dolorem sapiente numquam voluptate doloribus atque ullam amet expedita labore ipsam. Aliquam, illo.</p>
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-4 mb-4">Welcome to Tweet's App</h1>
+            <p class="lead text-muted mb-4">This is a small project developed for learning the Django framework.</p>
+            <a href="{% url 'tweet_list' %}" class="btn btn-primary btn-lg">Go To App</a>
+        </div>
+    </div>
 {% endblock %}
-
-
-
-<h1>Home</h1>
