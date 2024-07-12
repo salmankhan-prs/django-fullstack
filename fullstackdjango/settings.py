@@ -86,6 +86,7 @@ DATABASES = {
         'PASSWORD': os.environ.get("DB_PASSWORD"),
         'HOST': os.environ.get("DB_HOST"),
         'PORT': os.environ.get("DB_PORT"),
+        "SCRAM-SHA-256": os.environ.get("DB_NAME"),
     }
 }
 
